@@ -1,0 +1,46 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 3px double black;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url(https://i.pinimg.com/564x/5c/2d/fb/5c2dfbd885a617a30cb9b69949569773.jpg);
+    color:white;
+}
+.img-background{
+	background-color: white;
+    border: 5px solid orange;
+}
+
+img{
+	height: 300px;
+	width:250px;
+}
+
+.words{
+	text-shadow: 2px 2px 8px blue ;
+    background-color: lightyellow;
+    border: 5px solid orange;
+}
